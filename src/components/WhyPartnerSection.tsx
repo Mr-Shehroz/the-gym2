@@ -40,7 +40,7 @@ export default function WhyPartnerSection() {
   ];
 
   return (
-    <section id="business" className="relative py-24 bg-[#080808]">
+    <section id="business" className="relative md:py-24 py-16 bg-[#080808]">
       
       {/* Subtle background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-yellow-400/[0.03] rounded-full blur-[120px] pointer-events-none" />

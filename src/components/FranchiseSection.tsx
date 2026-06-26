@@ -44,7 +44,7 @@ export default function FranchiseSection() {
   };
 
   return (
-    <section id="collection" className="relative py-24 md:py-32 bg-[#080808] overflow-hidden">
+    <section id="collection" className="relative md:py-24 py-16 bg-[#080808] overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-[0.04] pointer-events-none">
         <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80" alt="" className="w-full h-full object-cover grayscale" />
       </div>

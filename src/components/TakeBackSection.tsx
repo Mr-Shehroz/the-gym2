@@ -29,7 +29,7 @@ export default function TakeBackSection() {
   ];
 
   return (
-    <section id="locations" className="relative py-24 bg-[#080808] overflow-hidden">
+    <section id="locations" className="relative md:py-24 py-16 bg-[#080808] overflow-hidden">
       
       {/* Subtle background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-yellow-400/[0.03] rounded-full blur-[120px] pointer-events-none" />

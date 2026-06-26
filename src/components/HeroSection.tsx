@@ -124,7 +124,7 @@ export default function HeroSection() {
           className="
             relative z-20
             max-w-[1440px] mx-auto w-full px-4 md:px-8 xl:px-10
-            pt-44 pb-20
+            md:pt-44 pt-[15vh] pb-20
             grid grid-cols-1 md:grid-cols-[1fr_auto] gap-12 items-center
           "
         >
@@ -145,8 +145,8 @@ export default function HeroSection() {
 
            {/* Heading — each line clips from bottom */}
             <h1
-              className="leading-[0.9] tracking-wide mb-3"
-              style={{ fontFamily:"'Bebas Neue',sans-serif", fontSize:"clamp(80px,10vw,140px)" }}
+              className="leading-[0.9] tracking-wide mb-3 h1"
+              style={{ fontFamily:"'Bebas Neue',sans-serif", }}
             >
               {/* Line 1: CUT THE FAT. — all on one line */}
               <span className="block overflow-hidden">

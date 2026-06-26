@@ -9,7 +9,7 @@ const ease = [0.4, 0, 0.2, 1] as const;
 
 export default function AboutSection() {
   return (
-    <section id="revolution" className="relative py-24 md:py-32 bg-[#080808] overflow-hidden">
+    <section id="revolution" className="relative md:py-32 py-16 bg-[#080808] overflow-hidden">
       
       {/* Subtle background watermark */}
       <div
