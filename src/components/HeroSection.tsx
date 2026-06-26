@@ -243,7 +243,7 @@ export default function HeroSection() {
             <motion.div
               ref={statsRef}
               className="
-                grid grid-cols-4 sm:grid-cols-4 grid-cols-2
+                md:grid grid-cols-4 sm:grid-cols-4 grid-cols-2 hidden
                 border-t border-white/7 pt-9
                 gap-y-6
               "
